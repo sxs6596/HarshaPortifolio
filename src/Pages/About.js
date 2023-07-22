@@ -6,13 +6,13 @@ function About() {
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
       <section>
-        <h3 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold" style={{ color: "#8A2BE2" }}>
+        <h3 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold" >
   About Me
 </h3>
         <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
       </section>
       <section>
-        <h3 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold" style={{ color: "#8A2BE2" }}>
+        <h3 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold" >
           Work Experience
         </h3>
         {React.Children.toArray(
@@ -28,7 +28,7 @@ function About() {
         )}
       </section>
       <section>
-        <h3 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold" style={{ color: "#8A2BE2" }}>
+        <h3 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold" >
           Education
         </h3>
         {React.Children.toArray(
